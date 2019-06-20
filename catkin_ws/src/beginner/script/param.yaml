@@ -1,0 +1,18 @@
+ConfigRun:
+  m_ncaseid: 1
+  m_nrunnum: 3
+  map_name:  map1
+  host_name: lidar
+RecordInfo:
+  data1: 
+    topic: ndt_stat
+    param: score
+    type: float32
+  data2: 
+    topic: ndt_stat
+    param: itor
+    type: int32
+AuditInfo:
+  topic: ndt_stat
+  score: 1
+
